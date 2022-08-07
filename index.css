@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    background: #1C1C1C;
+}
+
+.container {
+    width: 500px;
+    height: 320px;
+    margin: 50px auto 0;
+    background: #1F2937;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
+h3 {
+    color: #4ADF86;
+    font-family: 'Karla', sans-serif;
+    font-size: 41px;
+    line-height: 35px;
+    margin: 0
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 2px;
+    color: #D5D4D8;
+    font-size: 20px;
+    width: 372px;
+}
+
+button {
+    padding: 9px 17px 9px 15px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 40px;
+    color: #F3F3F9;
+    background: #10B981;
+    
+    text-shadow: 0px 0px 1px #1C1C1C;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+button:hover {
+    background: #273549;
+    border: 0.5px solid #F3F3F9;
+    color: #4ADF86;
+}
+
+/* password-container style */
+.password-field-container {
+    color: #4ADF86;
+    border-top: 1px  solid #2F3E53;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;   
+}
+
+/* password field style */
+.password-field {
+    background: #273549;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 15px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    width: 211px;
+    text-align: center;
+    color: #55F991;
+    margin: 30px 0;
+    box-shadow: 0px 0px 3px #bbbcc8;
+}
+
+.password-field:hover {
+    background: #2b2d42;
+    color: #D5D4D8
+}
+
+
+
