@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,14 +13,20 @@
 
     <body>
         <div class="container">
-        <h1>Generate a</h1>
-        <h3>random password</h3>
-        <p>Never use an insecure  password again.</p>
-        <button onclick="generateRandomPassword()">🎡 Generate Password</button>
-        <div class="password-field-container">
-        <p id="password-field1" class="password-field"></p>
-        <p id="password-field2" class="password-field"></p>
-        </div>
+            <h1>Generate a</h1>
+            <h3>random password</h3>
+            <p>Never use an insecure  password again.</p>
+            <button onclick="generateRandomPassword()">🎡 Generate Password</button>
+            <div class="password-container">
+                <div class="tooltips">
+                    <span class="tooltip-txt" id="tooltip-txt">Copy-Text</span>
+                    <span id="password-field1" class="password-field"></D>
+                </div>
+                <div class="tooltips">
+                    <span class="tooltip-txt" id="tooltip-txt2">Copy-Text</span>
+                    <span id="password-field2" class="password-field"></span>
+                </div>
+            </div>
         </div>
         
         
