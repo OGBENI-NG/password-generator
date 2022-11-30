@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-        <title>Password-generator</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">    
+    <title>Password-generator</title>
+</head>
+
+   
 
 
-    <body>
+<body>
+    <div class="desktop-container">
         <div class="container">
-            <h1>Generate a</h1>
-            <h3>random password</h3>
-            <p>Never use an insecure  password again.</p>
-            <button onclick="generateRandomPassword()">🎡 Generate Password</button>
+
+            <div class="text-con">
+                <h1>Generate a <span>random password</span></h1>
+                <p>Never use an insecure  password again.</p>
+            </div>
+           
+           
             <div class="password-container">
-                <div class="tooltips">
+                <div class="tooltips tooltipss">
                     <span class="tooltip-txt" id="tooltip-txt">Copy-Text</span>
-                    <span id="password-field1" class="password-field"></D>
+                    <span id="password-field1" class="password-field">press generate password</span>
                 </div>
                 <div class="tooltips">
                     <span class="tooltip-txt" id="tooltip-txt2">Copy-Text</span>
-                    <span id="password-field2" class="password-field"></span>
+                    <span id="password-field2" class="password-field">press generate password</span>
                 </div>
+                
             </div>
+            <button onclick="generateRandomPassword()">🎡 Generate Password</button>
         </div>
-        
-        
-        <script src="index.js"></script>
-    </body>
-
+    </div>
     
+    
+    <footer>
+        <h4>Powered by Scimba</h4>
+        <p>Copy right C2022</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
 </html>
