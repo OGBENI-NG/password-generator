@@ -47,7 +47,7 @@ p {
 }
 
 button {
-    padding: 1em;
+    padding: .8em 0;
     border: none;
     border-radius: 6px;
     margin: 2em 0 1.5em;
@@ -55,6 +55,7 @@ button {
     background: #10B981;
     width: 100%;
     text-shadow: 0px 0px 1px #1C1C1C;
+    font-size: 1rem;
 }
 
 button:active {
